@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Luckiest+Guy&family=Playpen+Sans:wght@500&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/minestyle.css">
+
+    </head>
+    <body>
+        <div id="sinistrastra">
+        <div id="regolamento">
+
+            <h1>Gioca a Black Jack!!</h1>
+            <h2>Regole:</h2>
+            <UL><LI>Se superi i 21 punti HAI PERSO.<li>Se il tuo avversario supera i 21 punti, HAI VINTO.</li></LI><li>Non puoi pescare più di 5 carte.</li><li>Una volta finito il turno (AVER PREMUTO IL NO) se hai un punteggio SUPERIORE al tuo avversario, HAI VINTO.</li><li>Una volta finito il turno (AVER PREMUTO IL NO) se hai un punteggio INFERIORE al tuo avversario, HAI PERSO.</li></UL>
+           
+           <button id="retract" onclick="ritrarre()"> << </button>
+           
+        </div>
+        <button id="expand" onclick="espandere()"> >> </button>
+       
+        <p id="tutorial">Tutorial</p>
+        
+           
+            <p id="risultato"></p>
+            
+
+        
+        <div id="bottone">
+            <button id="play" onclick="play()"></button>
+            <button id="reload" onclick="reload()">Retry </button></div>
+            <aside id="leggenda">
+            <p id="legend"></p>
+            <button id="legendCancel" onclick="cancella()">Canc</button>
+        </aside>
+    </div>
+       
+        <div id="progetto">
+            
+           
+        <div id="numeri">
+        <p id="primonumero"></p><p id="carta"></p>
+        <p id="secondonumero"></p><p id="cartadue"></p>
+        <p id="terzonumero"></p><p id="cartatre"></p>
+        <p  id="sestonumero"></p><p id="cartasei"></p>
+        <p id="settimonumero"></p><p id="cartasette"></p>
+        <p id="risultatiPlayer"></p>
+        </div>
+        <hr>
+        <div>
+        <p id="prova"></p>
+        <div id="bottonesino">
+        <button id="si" onclick="yes()">SI</button>
+    
+        <button id="no" onclick="no()">NO</button>
+        </div>
+    </div>
+        
+       <hr>
+        <div id="numeriAi">
+        <p id="aiquartacarta"></p><p id="CartaAiquarta"></p>
+        <p id="aiquintacarta"></p><p id="CartaAiquinta"></p>
+        <p id="aiottavacarta"></p><p id="CartaAiottava"></p>
+        <p id="ainonacarta"></p><p id="CartaAinona"></p>
+        <p id="aidecimacarta"></p><p id="CartaAidecima"></p>
+        <p id="risultatiAi"></p>
+    </div>
+    
+    </div>
+    <section id="destrastra">
+         <img src="immagini/you.jpg" src="" alt="Immagine">
+         <div id="fraseadeffetto"><input type="text" id="text"> <button id="saveText" onclick="saveText()">Save</button></div>
+        <p id="testosalvato"></p>
+        <button id="rewrite" onclick="ReWrite()">Re-write</button>
+
+        <p id="vs">VS</p>
+   <img src="immagini/robot pensante.jpg" id="immagine">
+   <p id="fraseAi"></p>
+</section>
+    <script src="blackj.js"></script>
+    </body>
+
+    </html>

@@ -1,0 +1,50 @@
+body{display:flex;background-size: cover;}
+#sinistrastra{display:flex;flex-direction:column;width:30%}
+#regolamento{background-image:url("../immagini/grid background.jpg");height:auto;display:none}
+h1{color:rgb(132, 19, 19)}
+h2{color:rgb(60, 5, 5);}
+hr{height:5px;background:black}
+#regolamento li{font-size:23px;font-family:"dancing script", cursive;font-weight:1000;}
+#retract {display:block;position:relative;width:30px;height:20px;left:100%;bottom:97%;}
+#expand{display:block;position:absolute;width:30px;height:20px;left:0px;top:0px;}
+#tutorial{margin:-8px 0 0 25px;font-size:20px;font-weight:800;}
+
+
+
+
+#progetto{width:40%;display:none;flex-direction:column;align-items:center;justify-content:space-evenly;border:4px solid black;margin: 0 20px;background-image: url(../immagini/tavolo\ background.jpg);border-radius:20px;}
+#bottone{display:flex;flex-direction:column}
+#prova{font-size:40px;margin:0 0 40px 0;height:30px;color:white}
+button{display:none;}
+#play{display:block;height:90px;width:90px;border-radius:50%;background-image:url("../immagini/pulsante-vero.jpg");background-size:cover;border:black solid 3px;margin:50px 0px 0 0px;}
+
+#numeri{display:flex;justify-content:space-around;width:450px;height:50px;margin-top:50px;margin-bottom:40px}
+#numeriAi{display:none;justify-content:space-around;width:450px;height:50px;}
+#reload{display:block}
+span{display:flex;width:50%;height:100px;justify-content:space-around;align-items:center;width:100%;}
+#bottonesino{display:flex;flex-direction:row;justify-content:space-around;height:70px;}
+#si,#no{width:70px;height:100%;font-size:20px;font-weight:800;border-radius:20%}
+#si{background-color:white;}
+#no{background-color:black;color:white;}
+#vs{height:50px;font-size:50px;color:red;font-weight:1000;margin-top:20px}
+img{width:200px;height:150px;box-shadow: 5px 5px 10px black, 5px 5px 10px #001E17;margin-bottom:30px;}
+#bottone{display:flex;width:30%;}
+#reload{display:none;height:75px;width:75px;border-radius:50px;background:rgb(214, 130, 130);color:black;border:black solid 3px;font-size:20px;font-weight:800;justify-self:flex-start;margin:50px 0px 0 0px;}
+button:hover{cursor:pointer;}
+#numeri p{font-size:50px;font-weight:800;margin:0;color:white}
+#terzonumero, #sestonumero, #settimonumero{color:blue;}
+#numeriAi p{font-size:50px;font-weight:800;margin:0;color:black}
+#numeri img{width:40px;height:40px;box-shadow:none;margin:10px 20px 0 0}
+#numeriAi img{width:40px;height:40px;box-shadow:none;margin:10px 20px 0 0}
+#risultatiAi{font-size:25px;color:grey;font-weight:1000;width:auto;margin-left:20px;}
+#risultato{font-size:70px;margin:0;padding:20px 10px 0 20px;height:auto;font-weight:2000;width:90%;}
+#destrastra{width:40%;display:flex;flex-direction:column;justify-content:space-around;align-items:center;margin-top:30px}
+#destrastra img{width:90%;height:35%;margin:0;border-radius:20px;}
+#fraseadeffetto{display:flex;flex-direction:row;}
+#testosalvato{margin:0 ;font-size:40px;font-weight:1000;color:white;font-family:"Lobster" , "sans-serif"}
+#savetext{display:block;}
+#rewrite{display:block;border-radius:8px}
+#fraseAi{font-size:30px;font-family:"dancing script", cursive;font-weight:800;margin:0;width:80%}
+#leggenda{display:none;flex-direction:row;margin:20px 0 0 20px;}
+#legend{margin:0;height:auto;width:25%;background:white;border-radius:10px;padding:10px 0 10px 10px;background:black;color:white;font-weight:1000}
+#legendcancel{width:45px;height:25px;display:block;background:grey;margin-left:5px;border-radius:8px;font-weight:1000;padding:0}
